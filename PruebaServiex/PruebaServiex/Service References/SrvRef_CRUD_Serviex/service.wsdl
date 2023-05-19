@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/PSModel.Entidades" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfPruebaServiex" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_ObtenerPersonas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPersonas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerPersonas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPersonasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarPersona_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPersona" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarPersona_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPersonaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarPersona_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarPersona" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarPersona_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarPersonaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarPersona_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPersona" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarPersona_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPersonaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerPersonasPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPersonasPD" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerPersonasPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPersonasPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarPersonaPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPersonaPD" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertarPersonaPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPersonaPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarPersonaPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarPersonaPD" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditarPersonaPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarPersonaPDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarPersonaPD_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPersonaPD" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EliminarPersonaPD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPersonaPDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="ObtenerPersonas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerPersonas" message="tns:IService1_ObtenerPersonas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerPersonasResponse" message="tns:IService1_ObtenerPersonas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPersona">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertarPersona" message="tns:IService1_InsertarPersona_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertarPersonaResponse" message="tns:IService1_InsertarPersona_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarPersona">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditarPersona" message="tns:IService1_EditarPersona_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditarPersonaResponse" message="tns:IService1_EditarPersona_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPersona">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarPersona" message="tns:IService1_EliminarPersona_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarPersonaResponse" message="tns:IService1_EliminarPersona_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPersonasPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerPersonasPD" message="tns:IService1_ObtenerPersonasPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerPersonasPDResponse" message="tns:IService1_ObtenerPersonasPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPersonaPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertarPersonaPD" message="tns:IService1_InsertarPersonaPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertarPersonaPDResponse" message="tns:IService1_InsertarPersonaPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarPersonaPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditarPersonaPD" message="tns:IService1_EditarPersonaPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditarPersonaPDResponse" message="tns:IService1_EditarPersonaPD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPersonaPD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EliminarPersonaPD" message="tns:IService1_EliminarPersonaPD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EliminarPersonaPDResponse" message="tns:IService1_EliminarPersonaPD_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerPersonas">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerPersonas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPersona">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertarPersona" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarPersona">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditarPersona" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPersona">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarPersona" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPersonasPD">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerPersonasPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPersonaPD">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertarPersonaPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarPersonaPD">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditarPersonaPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPersonaPD">
+      <soap:operation soapAction="http://tempuri.org/IService1/EliminarPersonaPD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfPruebaServiex/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

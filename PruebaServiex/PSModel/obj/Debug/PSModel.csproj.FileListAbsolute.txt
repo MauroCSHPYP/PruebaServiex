@@ -1,0 +1,4 @@
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSModel\bin\Debug\PSModel.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSModel\bin\Debug\PSModel.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSModel\obj\Debug\PSModel.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSModel\obj\Debug\PSModel.pdb

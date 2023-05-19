@@ -1,0 +1,7 @@
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\bin\Debug\PSData.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\bin\Debug\PSData.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\bin\Debug\PSModel.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\bin\Debug\PSModel.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\obj\Debug\PSData.csprojResolveAssemblyReference.cache
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\obj\Debug\PSData.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\PSData\obj\Debug\PSData.pdb

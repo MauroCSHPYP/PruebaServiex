@@ -1,0 +1,10 @@
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\obj\Debug\WcfPruebaServiex.csprojResolveAssemblyReference.cache
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\WcfPruebaServiex.dll.config
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\WcfPruebaServiex.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\WcfPruebaServiex.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\PSData.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\PSModel.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\PSData.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\bin\Debug\PSModel.pdb
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\obj\Debug\WcfPruebaServiex.dll
+c:\users\mauricio\documents\visual studio 2012\Projects\PruebaServiex\WcfPruebaServiex\obj\Debug\WcfPruebaServiex.pdb
